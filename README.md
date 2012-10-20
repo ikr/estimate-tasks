@@ -19,5 +19,4 @@ TBD
 
 Test-driven with [Mocha](http://visionmedia.github.com/mocha/)
 
-    ~/weas$ npm install -g mocha
-    ~/weas$ mocha
+    ~/weas$ npm test

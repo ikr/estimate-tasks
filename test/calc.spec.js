@@ -111,5 +111,24 @@
                 new Estimate(0.5, 1, 1.5, 99.9),
             ]).should.be.within(10 - 0.5, 10 + 0.5);
         });
+
+        it("accepts the plain maps instead of Estimate objects as the input", function () {
+            calc.total75PercentLikelyHours([{
+                bestCaseHours: 1,
+                mostLikelyCaseHours: 2,
+                worstCaseHours: 3,
+                confidencePercent: 99.9
+            }, {
+                bestCaseHours: 4,
+                mostLikelyCaseHours: 5,
+                worstCaseHours: 6,
+                confidencePercent: 99.9
+            }, {
+                bestCaseHours: 7,
+                mostLikelyCaseHours: 8,
+                worstCaseHours: 10,
+                confidencePercent: 99.9
+            }]).should.be.within(16 - 0.5, 16 + 0.5);
+        });
     });
 }());

@@ -108,7 +108,7 @@
                 new Estimate(1, 2, 3, 99.9),
                 new Estimate(1, 2, 2.5, 99.9),
                 new Estimate(3, 5, 7, 99.9),
-                new Estimate(0.5, 1, 1.5, 99.9),
+                new Estimate(0.5, 1, 1.5, 99.9)
             ]).should.be.within(10 - 0.5, 10 + 0.5);
         });
 

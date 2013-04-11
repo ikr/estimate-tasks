@@ -26,11 +26,14 @@
         "estimate"
     ],
 
+    "dependencies": {
+        "underscore": "1.4.x"
+    },
+
     "devDependencies": {
         "mocha": "1.9.x",
         "should": "1.2.x",
-        "sinon": "1.6.x",
-        "underscore": "1.4.x"
+        "sinon": "1.6.x"
     },
 
     "author": "Ivan Krechetov <ivan.krechetov@gmail.com>",

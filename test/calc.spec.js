@@ -12,6 +12,13 @@
         it("has a constructor function", function () {
             Estimate.should.be.a("function");
         });
+
+        it("accepts a vector of values in constructor", function () {
+            assert.strictEqual(
+                (new Estimate(1, 2, 3.5, 80)).variance(),
+                (new Estimate([1, 2, 3.5, 80])).variance()
+            );
+        });
     });
 
     describe("confidenceDivisor()", function () {

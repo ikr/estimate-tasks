@@ -1,0 +1,13 @@
+{
+  "name": "estimate-tasks",
+  "version": "0.1.1",
+  "main": "lib/calc.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "underscore": "1.4.x"
+  }
+}

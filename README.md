@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ikr/estimate-tasks.svg?branch=master)](https://travis-ci.org/ikr/estimate-tasks)
+
 # About
 
 Given the individual tasks' estimations (in hours), calculates the total estimation for the whole

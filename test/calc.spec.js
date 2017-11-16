@@ -1,8 +1,7 @@
 (function () {
     "use strict";
 
-    var _ = require("underscore"),
-        assert = require("assert"),
+    var assert = require("assert"),
         should = require("should"),
         sinon = require("sinon"),
         calc = require("../lib/calc"),
@@ -10,7 +9,7 @@
 
     describe("Estimate object", function () {
         it("has a constructor function", function () {
-            Estimate.should.be.a("function");
+            assert.strictEqual(typeof Estimate, "function");
         });
 
         it("accepts a vector of values in constructor", function () {

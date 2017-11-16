@@ -1,6 +1,6 @@
 {
   "name": "estimate-tasks",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Given the individual tasks' estimations, calculates the total estimation for the whole project",
   "main": "lib/calc.js",
   "engines": {

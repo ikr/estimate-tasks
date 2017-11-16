@@ -55,7 +55,7 @@ Node version:
             confidencePercent: 95
         }]);
 
-In the browser you have to include [Underscore](http://documentcloud.github.io/underscore/) and the
+In the browser you have to include the
 [lib/calc.js](https://github.com/ikr/estimate-tasks/blob/master/lib/calc.js) script. Then:
 
     var et = window["estimate-tasks"];

@@ -60,7 +60,7 @@ In the browser you have to include [Underscore](http://documentcloud.github.io/u
 
 # Testing
 
-Test-driven with [Mocha](http://visionmedia.github.com/mocha/). Under Node, say:
+Test-driven with [Mocha](http://mochajs.org/). Under Node, say:
 
     ~/estimate-tasks(master)$ npm test
 
